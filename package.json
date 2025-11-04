@@ -1,6 +1,7 @@
 {
-  "name": "luminary-avatar-react",
+  "name": "@agileluminary/luminary-avatar-react",
   "version": "0.1.0",
+  "description": "React components for digital human avatars with speech capabilities",
   "type": "module",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -10,7 +11,27 @@
       "require": "./src/index.js"
     }
   },
+  "files": [
+    "src",
+    "README.md"
+  ],
   "sideEffects": false,
+  "keywords": [
+    "react",
+    "avatar",
+    "digital-human",
+    "three",
+    "3d"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgileLuminary/luminary-avatar-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgileLuminary/luminary-avatar-react/issues"
+  },
+  "homepage": "https://github.com/AgileLuminary/luminary-avatar-react#readme",
+  "author": "Agile Luminary",
   "peerDependencies": {
     "react": ">=17",
     "react-dom": ">=17",
@@ -20,4 +41,3 @@
   },
   "license": "MIT"
 }
-
